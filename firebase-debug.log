@@ -1,0 +1,349 @@
+[debug] [2023-02-21T21:23:05.115Z] ----------------------------------------------------------------------
+[debug] [2023-02-21T21:23:05.117Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Nadia K\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-02-21T21:23:05.117Z] CLI Version:   11.23.1
+[debug] [2023-02-21T21:23:05.117Z] Platform:      win32
+[debug] [2023-02-21T21:23:05.117Z] Node Version:  v16.17.1
+[debug] [2023-02-21T21:23:05.118Z] Time:          Tue Feb 21 2023 16:23:05 GMT-0500 (Eastern Standard Time)
+[debug] [2023-02-21T21:23:05.119Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-02-21T21:23:05.125Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-02-21T21:23:05.125Z] > authorizing via signed-in user (nadiakoluzaeva@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Nadia K\JavaScriptProject
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-02-21T21:23:48.429Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-02-21T21:23:48.730Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-02-21T21:23:48.730Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project javascript-constructor-89a5b (JavaScript-constructor) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2023-02-21T21:25:07.005Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-02-21T21:25:07.065Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2023-02-21T21:25:07.065Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.17.1","browserURL":"https://www.gstatic.com/firebasejs/9.17.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.17.1/firebase.tgz"},"live":{"version":"9.17","browserURL":"https://www.gstatic.com/firebasejs/live/9.17/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.17/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.17.1/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.17.1/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.17.1/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.17.1/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.17.1/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.17.1/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.17.1/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.17.1/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.17.1/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.17.1/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.17.1/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.17.1/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.17.1/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.17.1/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.17.1/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.17.1/firebase-firestore.memory.js"}}
+[info] i  Skipping write of dist/index.html 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming C:\Users\Nadia K\JavaScriptProject is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=582423045&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-02-21T21:25:43.363Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2023-02-21T21:25:43.363Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2023-02-21T21:25:43.531Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2023-02-21T21:25:43.531Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2023-02-21T21:25:43.545Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2023-02-21T21:25:43.920Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2023-02-21T21:25:43.920Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"Nadzey","id":113733009,"node_id":"U_kgDOBsdtkQ","avatar_url":"https://avatars.githubusercontent.com/u/113733009?v=4","gravatar_id":"","url":"https://api.github.com/users/Nadzey","html_url":"https://github.com/Nadzey","followers_url":"https://api.github.com/users/Nadzey/followers","following_url":"https://api.github.com/users/Nadzey/following{/other_user}","gists_url":"https://api.github.com/users/Nadzey/gists{/gist_id}","starred_url":"https://api.github.com/users/Nadzey/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Nadzey/subscriptions","organizations_url":"https://api.github.com/users/Nadzey/orgs","repos_url":"https://api.github.com/users/Nadzey/repos","events_url":"https://api.github.com/users/Nadzey/events{/privacy}","received_events_url":"https://api.github.com/users/Nadzey/received_events","type":"User","site_admin":false,"name":"Nadia Koluzaeva","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":3,"public_gists":0,"followers":0,"following":0,"created_at":"2022-09-16T22:44:05Z","updated_at":"2023-02-08T20:38:48Z","private_gists":0,"total_private_repos":1,"owned_private_repos":1,"disk_usage":3835,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as Nadzey 
+[info] 
+[debug] [2023-02-21T21:28:13.070Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzey/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:28:13.073Z] >>> [apiv2][query] GET https://api.github.com/repos///actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:28:13.146Z] <<< [apiv2][status] GET https://api.github.com/repos///actions/secrets/public-key 404
+[debug] [2023-02-21T21:28:13.147Z] <<< [apiv2][body] GET https://api.github.com/repos///actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-02-21T21:28:13.164Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzey/actions/secrets/public-key 404
+[debug] [2023-02-21T21:28:13.164Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzey/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-02-21T21:28:35.610Z] >>> [apiv2][query] GET https://api.github.com/repos/JavaScript-constructor/Nadzey/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:28:35.709Z] <<< [apiv2][status] GET https://api.github.com/repos/JavaScript-constructor/Nadzey/actions/secrets/public-key 404
+[debug] [2023-02-21T21:28:35.709Z] <<< [apiv2][body] GET https://api.github.com/repos/JavaScript-constructor/Nadzey/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:28:36.039Z] >>> [apiv2][query] GET https://api.github.com/repos/JavaScript-constructor/Nadzey/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:28:36.136Z] <<< [apiv2][status] GET https://api.github.com/repos/JavaScript-constructor/Nadzey/actions/secrets/public-key 404
+[debug] [2023-02-21T21:28:36.136Z] <<< [apiv2][body] GET https://api.github.com/repos/JavaScript-constructor/Nadzey/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:28:36.210Z] >>> [apiv2][query] GET https://api.github.com/repos/JavaScript-constructor/Nadzey/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:28:36.297Z] <<< [apiv2][status] GET https://api.github.com/repos/JavaScript-constructor/Nadzey/actions/secrets/public-key 404
+[debug] [2023-02-21T21:28:36.297Z] <<< [apiv2][body] GET https://api.github.com/repos/JavaScript-constructor/Nadzey/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:28:36.360Z] >>> [apiv2][query] GET https://api.github.com/repos/JavaScript-constructor/Nadzey/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:28:36.448Z] <<< [apiv2][status] GET https://api.github.com/repos/JavaScript-constructor/Nadzey/actions/secrets/public-key 404
+[debug] [2023-02-21T21:28:36.448Z] <<< [apiv2][body] GET https://api.github.com/repos/JavaScript-constructor/Nadzey/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:29:08.352Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:29:08.442Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key 404
+[debug] [2023-02-21T21:29:08.442Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:29:20.870Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:29:20.958Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key 404
+[debug] [2023-02-21T21:29:20.959Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:29:21.029Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:29:21.117Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key 404
+[debug] [2023-02-21T21:29:21.117Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:29:21.174Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:29:21.261Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key 404
+[debug] [2023-02-21T21:29:21.262Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:29:21.303Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:29:21.392Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key 404
+[debug] [2023-02-21T21:29:21.393Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:29:21.443Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:29:21.529Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key 404
+[debug] [2023-02-21T21:29:21.529Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:29:21.580Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:29:21.663Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key 404
+[debug] [2023-02-21T21:29:21.664Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:29:21.724Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:29:21.802Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key 404
+[debug] [2023-02-21T21:29:21.802Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:29:21.875Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:29:21.985Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key 404
+[debug] [2023-02-21T21:29:21.985Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:29:22.377Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:29:22.407Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:29:22.438Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:29:22.463Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key 404
+[debug] [2023-02-21T21:29:22.463Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:29:22.485Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2023-02-21T21:29:22.485Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-02-21T21:29:22.530Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2023-02-21T21:29:22.530Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-02-21T21:29:22.618Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:29:22.709Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key 404
+[debug] [2023-02-21T21:29:22.709Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:29:22.865Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:29:22.943Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key 404
+[debug] [2023-02-21T21:29:22.943Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:29:23.095Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:29:23.182Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key 404
+[debug] [2023-02-21T21:29:23.182Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:29:23.282Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:29:23.377Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key 404
+[debug] [2023-02-21T21:29:23.377Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:29:23.464Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:29:23.549Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key 404
+[debug] [2023-02-21T21:29:23.549Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:29:25.524Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:29:25.633Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key 404
+[debug] [2023-02-21T21:29:25.633Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:29:25.980Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:29:26.076Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key 404
+[debug] [2023-02-21T21:29:26.076Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:29:26.182Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:29:26.266Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key 404
+[debug] [2023-02-21T21:29:26.266Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:29:26.326Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:29:26.409Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key 404
+[debug] [2023-02-21T21:29:26.410Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:29:26.486Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:29:26.623Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key 404
+[debug] [2023-02-21T21:29:26.624Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:29:26.633Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:29:26.714Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key 404
+[debug] [2023-02-21T21:29:26.715Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:29:26.754Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:29:26.844Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key 404
+[debug] [2023-02-21T21:29:26.845Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:29:39.209Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:29:39.306Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key 404
+[debug] [2023-02-21T21:29:39.306Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:29:39.515Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:29:39.600Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key 404
+[debug] [2023-02-21T21:29:39.600Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:29:39.716Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:29:39.793Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key 404
+[debug] [2023-02-21T21:29:39.793Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:29:39.888Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:29:39.973Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key 404
+[debug] [2023-02-21T21:29:39.973Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:29:40.046Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:29:40.145Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key 404
+[debug] [2023-02-21T21:29:40.145Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:29:40.198Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:29:40.284Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key 404
+[debug] [2023-02-21T21:29:40.284Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:29:40.361Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:29:40.440Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key 404
+[debug] [2023-02-21T21:29:40.440Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:29:40.506Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:29:40.599Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key 404
+[debug] [2023-02-21T21:29:40.599Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:29:40.664Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:29:40.753Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key 404
+[debug] [2023-02-21T21:29:40.754Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:29:41.636Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:29:41.720Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key 404
+[debug] [2023-02-21T21:29:41.720Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:30:18.967Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     git remote add origin https://github.com/Nadzey/JavaScript-constructor.git/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:30:18.968Z] >>> [apiv2][query] GET https://api.github.com/repos/git branch -M main/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:30:19.047Z] <<< [apiv2][status] GET https://api.github.com/repos/git branch -M main/actions/secrets/public-key 404
+[debug] [2023-02-21T21:30:19.047Z] <<< [apiv2][body] GET https://api.github.com/repos/git branch -M main/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-02-21T21:30:19.058Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     git remote add origin https://github.com/Nadzey/JavaScript-constructor.git/actions/secrets/public-key 404
+[debug] [2023-02-21T21:30:19.059Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     git remote add origin https://github.com/Nadzey/JavaScript-constructor.git/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-02-21T21:30:20.441Z] >>> [apiv2][query] GET https://api.github.com/repos/git push -u origin maingit branch -M mainNadzeya/JavaScript-constructor     git remote add origin https://github.com/Nadzey/JavaScript-constructor.git/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:30:20.518Z] <<< [apiv2][status] GET https://api.github.com/repos/git push -u origin maingit branch -M mainNadzeya/JavaScript-constructor     git remote add origin https://github.com/Nadzey/JavaScript-constructor.git/actions/secrets/public-key 404
+[debug] [2023-02-21T21:30:20.518Z] <<< [apiv2][body] GET https://api.github.com/repos/git push -u origin maingit branch -M mainNadzeya/JavaScript-constructor     git remote add origin https://github.com/Nadzey/JavaScript-constructor.git/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-02-21T21:30:20.596Z] >>> [apiv2][query] GET https://api.github.com/repos/git push -u origin maingit branch -M mainNadzeya/JavaScript-constructor     git remote add origin https://github.com/Nadzey/JavaScript-constructor.git/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:30:20.692Z] <<< [apiv2][status] GET https://api.github.com/repos/git push -u origin maingit branch -M mainNadzeya/JavaScript-constructor     git remote add origin https://github.com/Nadzey/JavaScript-constructor.git/actions/secrets/public-key 404
+[debug] [2023-02-21T21:30:20.692Z] <<< [apiv2][body] GET https://api.github.com/repos/git push -u origin maingit branch -M mainNadzeya/JavaScript-constructor     git remote add origin https://github.com/Nadzey/JavaScript-constructor.git/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-02-21T21:30:20.738Z] >>> [apiv2][query] GET https://api.github.com/repos/git push -u origin maingit branch -M mainNadzeya/JavaScript-constructor     git remote add origin https://github.com/Nadzey/JavaScript-constructor.git/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:30:20.827Z] <<< [apiv2][status] GET https://api.github.com/repos/git push -u origin maingit branch -M mainNadzeya/JavaScript-constructor     git remote add origin https://github.com/Nadzey/JavaScript-constructor.git/actions/secrets/public-key 404
+[debug] [2023-02-21T21:30:20.827Z] <<< [apiv2][body] GET https://api.github.com/repos/git push -u origin maingit branch -M mainNadzeya/JavaScript-constructor     git remote add origin https://github.com/Nadzey/JavaScript-constructor.git/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-02-21T21:30:20.880Z] >>> [apiv2][query] GET https://api.github.com/repos/git push -u origin maingit branch -M mainNadzeya/JavaScript-constructor     git remote add origin https://github.com/Nadzey/JavaScript-constructor.git/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:30:20.955Z] <<< [apiv2][status] GET https://api.github.com/repos/git push -u origin maingit branch -M mainNadzeya/JavaScript-constructor     git remote add origin https://github.com/Nadzey/JavaScript-constructor.git/actions/secrets/public-key 404
+[debug] [2023-02-21T21:30:20.955Z] <<< [apiv2][body] GET https://api.github.com/repos/git push -u origin maingit branch -M mainNadzeya/JavaScript-constructor     git remote add origin https://github.com/Nadzey/JavaScript-constructor.git/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-02-21T21:30:21.018Z] >>> [apiv2][query] GET https://api.github.com/repos/git push -u origin maingit branch -M mainNadzeya/JavaScript-constructor     git remote add origin https://github.com/Nadzey/JavaScript-constructor.git/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:30:21.103Z] <<< [apiv2][status] GET https://api.github.com/repos/git push -u origin maingit branch -M mainNadzeya/JavaScript-constructor     git remote add origin https://github.com/Nadzey/JavaScript-constructor.git/actions/secrets/public-key 404
+[debug] [2023-02-21T21:30:21.104Z] <<< [apiv2][body] GET https://api.github.com/repos/git push -u origin maingit branch -M mainNadzeya/JavaScript-constructor     git remote add origin https://github.com/Nadzey/JavaScript-constructor.git/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-02-21T21:30:21.153Z] >>> [apiv2][query] GET https://api.github.com/repos/git push -u origin maingit branch -M mainNadzeya/JavaScript-constructor     git remote add origin https://github.com/Nadzey/JavaScript-constructor.git/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:30:21.234Z] <<< [apiv2][status] GET https://api.github.com/repos/git push -u origin maingit branch -M mainNadzeya/JavaScript-constructor     git remote add origin https://github.com/Nadzey/JavaScript-constructor.git/actions/secrets/public-key 404
+[debug] [2023-02-21T21:30:21.234Z] <<< [apiv2][body] GET https://api.github.com/repos/git push -u origin maingit branch -M mainNadzeya/JavaScript-constructor     git remote add origin https://github.com/Nadzey/JavaScript-constructor.git/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-02-21T21:30:46.758Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:30:46.850Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2023-02-21T21:30:46.851Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-02-21T21:30:46.970Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:30:47.041Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2023-02-21T21:30:47.041Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-02-21T21:30:47.133Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:30:47.216Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2023-02-21T21:30:47.216Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-02-21T21:30:47.271Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:30:47.334Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2023-02-21T21:30:47.334Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-02-21T21:30:47.400Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:30:47.484Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2023-02-21T21:30:47.485Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-02-21T21:30:47.547Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:30:47.640Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2023-02-21T21:30:47.640Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-02-21T21:30:47.699Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:30:47.773Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2023-02-21T21:30:47.773Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-02-21T21:30:47.859Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:30:47.936Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2023-02-21T21:30:47.936Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-02-21T21:32:34.104Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:32:34.199Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key 404
+[debug] [2023-02-21T21:32:34.199Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:32:35.759Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:32:35.864Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key 404
+[debug] [2023-02-21T21:32:35.864Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:32:36.022Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:32:36.109Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key 404
+[debug] [2023-02-21T21:32:36.109Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:32:36.221Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:32:36.299Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key 404
+[debug] [2023-02-21T21:32:36.299Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:32:36.377Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:32:36.470Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key 404
+[debug] [2023-02-21T21:32:36.471Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:32:36.519Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:32:36.610Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key 404
+[debug] [2023-02-21T21:32:36.611Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:32:36.671Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:32:36.749Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key 404
+[debug] [2023-02-21T21:32:36.753Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:32:36.814Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:32:36.900Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key 404
+[debug] [2023-02-21T21:32:36.900Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:32:38.916Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:32:39.012Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key 404
+[debug] [2023-02-21T21:32:39.012Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:32:39.077Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:32:39.170Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key 404
+[debug] [2023-02-21T21:32:39.170Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:32:39.213Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:32:39.300Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key 404
+[debug] [2023-02-21T21:32:39.300Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:32:39.348Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:32:39.427Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key 404
+[debug] [2023-02-21T21:32:39.427Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:32:41.353Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         /actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:32:41.448Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         /actions/secrets/public-key 404
+[debug] [2023-02-21T21:32:41.448Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:32:41.503Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         /actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:32:41.590Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         /actions/secrets/public-key 404
+[debug] [2023-02-21T21:32:41.590Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:32:41.651Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         /actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:32:41.732Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         /actions/secrets/public-key 404
+[debug] [2023-02-21T21:32:41.732Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:32:41.803Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         /actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:32:41.893Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         /actions/secrets/public-key 404
+[debug] [2023-02-21T21:32:41.893Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:32:41.978Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         /actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:32:42.063Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         /actions/secrets/public-key 404
+[debug] [2023-02-21T21:32:42.063Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:32:42.518Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         /actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:32:42.602Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         /actions/secrets/public-key 404
+[debug] [2023-02-21T21:32:42.602Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:32:42.770Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         /actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:32:42.862Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         /actions/secrets/public-key 404
+[debug] [2023-02-21T21:32:42.863Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:32:42.952Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         /actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:32:43.040Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         /actions/secrets/public-key 404
+[debug] [2023-02-21T21:32:43.040Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:32:43.123Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         /actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:32:43.209Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         /actions/secrets/public-key 404
+[debug] [2023-02-21T21:32:43.209Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:32:43.274Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         /actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:32:43.356Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         /actions/secrets/public-key 404
+[debug] [2023-02-21T21:32:43.357Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:32:43.417Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         /actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:32:43.502Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         /actions/secrets/public-key 404
+[debug] [2023-02-21T21:32:43.503Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:32:43.572Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         /actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:32:43.660Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         /actions/secrets/public-key 404
+[debug] [2023-02-21T21:32:43.661Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:32:45.720Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         y/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:32:45.806Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         y/actions/secrets/public-key 404
+[debug] [2023-02-21T21:32:45.806Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         y/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:33:40.568Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         https://github.com/Nadzey/JavaScript-constructor.git/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:33:40.657Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         https://github.com/Nadzey/JavaScript-constructor.git/actions/secrets/public-key 404
+[debug] [2023-02-21T21:33:40.658Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         https://github.com/Nadzey/JavaScript-constructor.git/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-02-21T21:33:40.828Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         https://github.com/Nadzey/JavaScript-constructor.git/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:33:40.902Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         https://github.com/Nadzey/JavaScript-constructor.git/actions/secrets/public-key 404
+[debug] [2023-02-21T21:33:40.902Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         https://github.com/Nadzey/JavaScript-constructor.git/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-02-21T21:33:41.005Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         https://github.com/Nadzey/JavaScript-constructor.git/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:33:41.091Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         https://github.com/Nadzey/JavaScript-constructor.git/actions/secrets/public-key 404
+[debug] [2023-02-21T21:33:41.091Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         https://github.com/Nadzey/JavaScript-constructor.git/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-02-21T21:33:41.161Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         https://github.com/Nadzey/JavaScript-constructor.git/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:33:41.260Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         https://github.com/Nadzey/JavaScript-constructor.git/actions/secrets/public-key 404
+[debug] [2023-02-21T21:33:41.260Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         https://github.com/Nadzey/JavaScript-constructor.git/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-02-21T21:33:41.301Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         https://github.com/Nadzey/JavaScript-constructor.git/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:33:41.388Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         https://github.com/Nadzey/JavaScript-constructor.git/actions/secrets/public-key 404
+[debug] [2023-02-21T21:33:41.388Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         https://github.com/Nadzey/JavaScript-constructor.git/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-02-21T21:33:41.411Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         https://github.com/Nadzey/JavaScript-constructor.git/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:33:41.487Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         https://github.com/Nadzey/JavaScript-constructor.git/actions/secrets/public-key 404
+[debug] [2023-02-21T21:33:41.487Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor         https://github.com/Nadzey/JavaScript-constructor.git/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-02-21T21:34:08.715Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:34:08.811Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key 404
+[debug] [2023-02-21T21:34:08.812Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:34:08.851Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:34:08.943Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key 404
+[debug] [2023-02-21T21:34:08.944Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:34:09.016Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:34:09.100Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key 404
+[debug] [2023-02-21T21:34:09.101Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:34:09.146Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:34:09.229Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key 404
+[debug] [2023-02-21T21:34:09.229Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:34:09.287Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:34:09.376Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key 404
+[debug] [2023-02-21T21:34:09.376Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor     /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:34:29.964Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor.git/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:34:30.053Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor.git/actions/secrets/public-key 404
+[debug] [2023-02-21T21:34:30.054Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor.git/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:34:30.264Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor.git/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:34:30.356Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor.git/actions/secrets/public-key 404
+[debug] [2023-02-21T21:34:30.356Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor.git/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:34:30.425Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor.git/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:34:30.520Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor.git/actions/secrets/public-key 404
+[debug] [2023-02-21T21:34:30.520Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor.git/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-21T21:34:30.566Z] >>> [apiv2][query] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor.git/actions/secrets/public-key type=owner
+[debug] [2023-02-21T21:34:30.661Z] <<< [apiv2][status] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor.git/actions/secrets/public-key 404
+[debug] [2023-02-21T21:34:30.661Z] <<< [apiv2][body] GET https://api.github.com/repos/Nadzeya/JavaScript-constructor.git/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}

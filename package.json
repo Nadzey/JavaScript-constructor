@@ -1,0 +1,23 @@
+{
+  "name": "javascriptproject",
+  "version": "1.0.0",
+  "description": "javascript pure aplication",
+  "main": "src/index.js",
+  "scripts": {
+    "serve": "parcel ./src/index.html -p 4200 --open",
+    "build": "parcel build ./src/index.html --no-source-maps",
+    "start": "parcel ./src/index.html"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "Nadia <nadiakoluzaeva@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    "firebase": "^9.17.1"
+  }
+}
