@@ -1,3 +1,3 @@
 ﻿# JavaScript-constructor
 
- https://Nadzey.github.io/JavaScript-constructor/src
+ https://Nadzey.github.io/JavaScript-constructor
